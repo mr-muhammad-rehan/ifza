@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- font-awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="owl_carousel/owl.carousel.css">
+  <link rel="stylesheet" href="owl_carousel/owl.theme.default.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+
+  <title>IFZA | Consultancy</title>
+
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="grid container">
+      <div class="left content">
+        <span> <i class="bi bi-phone-fill"></i>+1-541-754-3010</span>
+        <span> <i class="bi bi-envelope-at-fill"></i> info@gmail.com</span>
+      </div>
+
+      <div class="right content">
+        <span> <i class="bi bi-instagram"></i> </span>
+        <span> <i class="bi bi-twitter"></i> </span>
+        <span> <i class="bi bi-facebook"></i> </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar bg-body-tertiary container">
+    <div class="container-fluid">
+      <a class="navbar-brand">Logo</a>
+      <div class="navbar-text nav-bar-right">
+        <span>About</span>
+        <span>Portfolio</span>
+        <span>Blog</span>
+        <span>Contact</span>
+        <span class="actions">
+          <i class="bi bi-search"></i>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Header Section -->
+  <div class="landing-page-container">
+    <div class="video-overlay"></div> <!-- Overlay added here -->
+    <video autoplay muted loop id="background-video">
+      <source src="./assets/IFZA.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-md-6">
+          <h1 class="landing-page-header">Transform Your Business with IFZA</h1>
+          <p class="landing-page-text">Your Gateway to Success in Dubai.</p>
+        </div>
+        <div class="col-md-5 offset-md-1">
+          <div class="form-container">
+            <div class="form-title">Consultancy Meeting</div>
+            <form>
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-input" placeholder="Your name">
+
+              <label for="phone" class="form-label">Phone</label>
+              <input type="text" id="phone" class="form-input" placeholder="Your phone">
+
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-input" placeholder="Your email">
+
+              <button type="submit" class="btn-md btn-block form-button form-input">Sign up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="features-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="features-title">Key Offers</h2>
+        </div>
+        <div class="col-lg-6 text-end">
+          <p class="features-description">Embark on a journey of unparalleled business potential with IFZA's exclusive
+            offers designed to elevate your enterprise to new heights</p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 50px; display: flex; justify-content: space-around;">
+        <!-- Card -->
+        <div class="card mb-3" style="max-width: 18rem; padding-top: 24px;">
+          <div class="card-header bg-transparent border-0" style="display: flex; justify-content: space-between;">
+            <h5 class="card-title">100% Waiver</h5>
+            <img src="./assets/icon-br-1.svg" />
+          </div>
+          <div class="card-body ">
+            <p class="card-text">Unlock your Business Potential with 100% Waiver on General Trading Activity Fee.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0" style="padding-bottom: 24px;">
+            <span style="padding-bottom: 24px;">Learn more</span>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div class="card mb-3" style="max-width: 18rem; padding-top: 24px;">
+          <div class="card-header bg-transparent border-0" style="display: flex; justify-content: space-between;">
+            <h5 class="card-title">Strategic Savings</h5>
+            <img src="./assets/icon-br-2.svg" />
+          </div>
+          <div class="card-body ">
+            <p class="card-text">Discounts on Multi-Year Packages Tailored for Your Growth..</p>
+          </div>
+          <div class="card-footer bg-transparent border-0" style="padding-bottom: 24px;">
+            <span style="padding-bottom: 24px;">Learn more</span>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div class="card mb-3" style="max-width: 18rem; padding-top: 24px;">
+          <div class="card-header bg-transparent border-0" style="display: flex; justify-content: space-between;">
+            <h5 class="card-title">Cross Business</h5>
+            <img src="./assets/icon-br-3.svg" />
+          </div>
+          <div class="card-body ">
+            <p class="card-text">Seize Opportunities with a 100% Waiver on Cross Business Activity Fee.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0" style="padding-bottom: 24px;">
+            <span style="padding-bottom: 24px;">Learn more</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <section class="worldwide-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" style=" display: flex; flex-direction: column; justify-content: space-between;">
+          <h2>Unlock Dubai's
+            Business Brilliance</h2>
+          <p>Discover unparalleled opportunities and tailored incentives for your company's success amidst the vibrant
+            skyline of Dubai..</p>
+          <ul class="worldwide-list">
+            <li><i class="bi bi-speedometer2"></i></i>Lucrative Opportunities</li>
+            <li><i class="bi bi-archive"></i></i> Tailored Incentives</li>
+            <li><i class="bi bi-pencil-square"></i></i> Strategic Advantages</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+
+          <div class="feature-item" style="display: flex; align-items: flex-start;">
+            <div class="circle-icon-container">
+              <img src="./assets/icon-1.svg" />
+            </div>
+            <div style="margin-top: 14px; margin-inline-start: 20px;">
+              <h3>Lucrative Opportunities</h3>
+              <p>Explore a dynamic business landscape in Dubai, ripe with potential for growth and success.</p>
+            </div>
+          </div>
+
+          <div class="feature-item" style="display: flex; align-items: flex-start;">
+            <div class="circle-icon-container">
+              <img src="./assets/icon-2.svg" />
+            </div>
+            <div style="margin-top: 14px; margin-inline-start: 20px;">
+              <h3>Tailored Incentives</h3>
+              <p>Benefit from incentives meticulously crafted to ensure your company's prosperity in the UAE. </p>
+            </div>
+          </div>
+
+          <div class="feature-item" style="display: flex; align-items: flex-start;">
+            <div class="circle-icon-container">
+              <img src="./assets/icon-3.svg" />
+            </div>
+            <div style="margin-top: 14px; margin-inline-start: 20px;">
+              <h3>Strategic Advantages</h3>
+              <p>Leverage distinctive incentives strategically tailored for your company's triumph in the vibrant UAE
+                business landscape. </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Our work -->
+  <section class="our-work">
+    <div class="container">
+      <div class="row my-5">
+        <h1 class="text-center">Special 100% Fee Waivers</h1>
+        <p class="fw-light w-75 mx-auto text-center">Elevate your business journey with IFZA's exclusive fee waivers,
+          each crafted to optimize your financial landscape..</p>
+      </div>
+      <div class="row g-4 my-5 mx-auto owl-carousel owl-theme">
+        <div class="image-card" style="background-image: url('assets/our_work_3.jpg'); ">
+          <div class="card-content">
+            <div class="content-body">
+              <h2 class="card-title">Enjoy 100% Waiver on Dubai General Trading Fee.</h2>
+              <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <a href="#" class="card-link">Learn more &rarr;</a>
+          </div>
+        </div>
+        <div class="image-card" style="background-image: url('assets/our_work_2.jpg'); ">
+          <div class="card-content">
+            <div class="content-body">
+              <h2 class="card-title">Upgrade Without Cost: License Upgrade Fee Waived in Full.</h2>
+              <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <a href="#" class="card-link">Learn more &rarr;</a>
+          </div>
+        </div>
+        <div class="image-card" style="background-image: url('assets/our_work_1.jpg'); ">
+          <div class="card-content">
+            <div class="content-body">
+              <h2 class="card-title">Seamless Operations: 100% Waiver on Cross Business Activity Fee.</h2>
+              <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <a href="#" class="card-link">Learn more &rarr;</a>
+          </div>
+        </div>
+        <div class="image-card" style="background-image: url('assets/our_work_3.jpg'); ">
+          <div class="card-content">
+            <div class="content-body">
+              <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur</h2>
+              <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <a href="#" class="card-link">Learn more &rarr;</a>
+          </div>
+        </div>
+        <div class="image-card" style="background-image: url('assets/our_work_2.jpg'); ">
+          <div class="card-content">
+            <div class="content-body">
+              <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur</h2>
+              <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <a href="#" class="card-link">Learn more &rarr;</a>
+          </div>
+        </div>
+        <div class="image-card" style="background-image: url('assets/our_work_1.jpg'); ">
+          <div class="card-content">
+            <div class="content-body">
+              <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur</h2>
+              <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <a href="#" class="card-link">Learn more &rarr;</a>
+          </div>
+        </div>
+        <div class="image-card" style="background-image: url('assets/our_work_3.jpg'); ">
+          <div class="card-content">
+            <div class="content-body">
+              <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur</h2>
+              <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <a href="#" class="card-link">Learn more &rarr;</a>
+          </div>
+        </div>
+        <div class="image-card" style="background-image: url('assets/our_work_2.jpg'); ">
+          <div class="card-content">
+            <div class="content-body">
+              <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur</h2>
+              <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <a href="#" class="card-link">Learn more &rarr;</a>
+          </div>
+        </div>
+        <div class="image-card" style="background-image: url('assets/our_work_1.jpg'); ">
+          <div class="card-content">
+            <div class="content-body">
+              <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur</h2>
+              <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <a href="#" class="card-link">Learn more &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Helpful Resources for Authors -->
+  <div class="container my-5 resources-section">
+    <div class="row">
+      <div class="col-md-6 resources-header">
+        <h2>Access to Premium
+          Health Insurance
+          Through IFZA Life</h2>
+        <p>Witness the vitality of your workforce through engaging visuals that capture professionals thriving with
+          exclusive IFZA Life benefits.</p>
+        <button class="btn btn-warning">Explore</button>
+      </div>
+      <div class="col-md-6">
+        <div class="accordion" id="resourcesAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Tailored Health Packages
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#resourcesAccordion">
+              <div class="accordion-body">Explore elegant cards or banners showcasing meticulously tailored health
+                insurance packages. Each package is designed with your team's well-being in mind, providing
+                comprehensive coverage for a healthier and more secure workforce.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Exclusive Business Coverage
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#resourcesAccordion">
+              <div class="accordion-body">
+                <div class="accordion-body">
+                  Protect Your Team: IFZA Life offers exclusive health coverage crafted to safeguard your business. With
+                  our tailored packages, you ensure the health and well-being of your employees, fostering a thriving
+                  and motivated workforce.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Secure Your Consultancy
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#resourcesAccordion">
+              <div class="accordion-body">
+                <div class="accordion-body">
+                  Click now to "Explore Comprehensive Coverage" and gain insights into the exclusive health coverage
+                  options. Secure your consultancy today to discuss how IFZA Life can enhance your team's well-being and
+                  contribute to a healthier workplace.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 footer-logo">
+          <h2>LOGO</h2>
+          <p>&copy; Copyright 2019. Laociq. All Right Reserved.</p>
+        </div>
+        <div class="col-md-3 footer-about">
+          <h4>About</h4>
+          <p>Erroribus vituperatoribus no eos, no nobis alienum qui ei, exerci dissentiunt eum tacimates recusabo
+            scripserit, in mea tantas soleat imperdiet.</p>
+        </div>
+        <div class="col-md-3 footer-contact">
+          <h4>Contact</h4>
+          <address>
+            21 Valentin Rapids Apt. 335 New Jersey, New York, USA<br>
+            +1 (243) 576-98-02<br>
+            info@company.com
+          </address>
+        </div>
+        <div class="col-md-3 footer-map">
+          <h4>Map</h4>
+          <img src="./assets/maps-img.png" alt="Map" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- owl carousel -->
+  <script src="owl_carousel/owl.carousel.js"></script>
+  <script src="script.js"></script>
+
+  <!-- Bootstrap JavaScript (optional, if you need Bootstrap's JavaScript features) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
